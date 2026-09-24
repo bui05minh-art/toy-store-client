@@ -25,7 +25,7 @@ export default function Header() {
 
           <div className="flex items-center gap-6 text-xs">
             <div className="flex items-center gap-2">
-              <Truck size={14} className="text-orange-400" />
+              <Truck size={14} className="text-red-400" />
               <span>Giao hàng toàn quốc</span>
             </div>
 
@@ -41,9 +41,9 @@ export default function Header() {
           </div>
 
           <div className="hidden items-center gap-2 text-xs sm:flex">
-            <Phone size={14} className="text-orange-400" />
+            <Phone size={14} className="text-red-400" />
             <span>Hotline:</span>
-            <span className="font-bold text-orange-400">
+            <span className="font-bold text-red-400">
               1900 6868
             </span>
           </div>
@@ -62,13 +62,13 @@ export default function Header() {
             href="/"
             className="group flex shrink-0 items-center gap-3"
           >
-            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-orange-500 text-2xl shadow-lg shadow-orange-200 transition duration-300 group-hover:rotate-6 group-hover:scale-105">
+            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-red-500 text-2xl shadow-lg shadow-red-200 transition duration-300 group-hover:rotate-6 group-hover:scale-105">
               🧸
             </div>
 
             <div className="hidden sm:block">
               <div className="text-xl font-black tracking-tight text-slate-900">
-                TOY<span className="text-orange-500">STORE</span>
+                TOY<span className="text-red-500">STORE</span>
               </div>
 
               <div className="text-[10px] font-medium uppercase tracking-[0.2em] text-slate-400">
@@ -83,13 +83,13 @@ export default function Header() {
               <input
                 type="text"
                 placeholder="Tìm kiếm đồ chơi, LEGO, robot, búp bê..."
-                className="h-12 w-full rounded-full border border-slate-200 bg-slate-50 pl-5 pr-14 text-sm text-slate-700 outline-none transition placeholder:text-slate-400 focus:border-orange-400 focus:bg-white focus:ring-4 focus:ring-orange-100"
+                className="h-12 w-full rounded-full border border-slate-200 bg-slate-50 pl-5 pr-14 text-sm text-slate-700 outline-none transition placeholder:text-slate-400 focus:border-red-400 focus:bg-white focus:ring-4 focus:ring-red-100"
               />
 
               <button
                 type="button"
                 aria-label="Tìm kiếm"
-                className="absolute right-1 top-1 flex h-10 w-10 items-center justify-center rounded-full bg-orange-500 text-white shadow-md transition hover:bg-orange-600 hover:shadow-lg"
+                className="absolute right-1 top-1 flex h-10 w-10 items-center justify-center rounded-full bg-red-500 text-white shadow-md transition hover:bg-red-600 hover:shadow-lg"
               >
                 <Search size={19} />
               </button>
@@ -102,12 +102,12 @@ export default function Header() {
             {/* ACCOUNT */}
             <Link
               href="/login"
-              className="group flex items-center gap-2 rounded-xl px-3 py-2 transition hover:bg-orange-50"
+              className="group flex items-center gap-2 rounded-xl px-3 py-2 transition hover:bg-red-50"
             >
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 transition group-hover:bg-orange-100">
+              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 transition group-hover:bg-red-100">
                 <UserRound
                   size={19}
-                  className="text-slate-600 group-hover:text-orange-500"
+                  className="text-slate-600 group-hover:text-red-500"
                 />
               </div>
 
@@ -125,7 +125,7 @@ export default function Header() {
             {/* WISHLIST */}
             <Link
               href="/wishlist"
-              className="group relative flex h-11 w-11 items-center justify-center rounded-xl transition hover:bg-orange-50"
+              className="group relative flex h-11 w-11 items-center justify-center rounded-xl transition hover:bg-red-50"
               aria-label="Yêu thích"
             >
               <Heart
@@ -141,15 +141,15 @@ export default function Header() {
             {/* CART */}
             <Link
               href="/cart"
-              className="group relative flex h-11 w-11 items-center justify-center rounded-xl transition hover:bg-orange-50"
+              className="group relative flex h-11 w-11 items-center justify-center rounded-xl transition hover:bg-red-50"
               aria-label="Giỏ hàng"
             >
               <ShoppingCart
                 size={22}
-                className="text-slate-600 transition group-hover:scale-110 group-hover:text-orange-500"
+                className="text-slate-600 transition group-hover:scale-110 group-hover:text-red-500"
               />
 
-              <span className="absolute right-0 top-0 flex h-4 min-w-4 items-center justify-center rounded-full bg-orange-500 px-1 text-[9px] font-bold text-white">
+              <span className="absolute right-0 top-0 flex h-4 min-w-4 items-center justify-center rounded-full bg-red-500 px-1 text-[9px] font-bold text-white">
                 0
               </span>
             </Link>
@@ -172,42 +172,42 @@ export default function Header() {
 
             <Link
               href="/products"
-              className="whitespace-nowrap rounded-full bg-slate-50 px-3 py-1 text-xs text-slate-500 transition hover:bg-orange-50 hover:text-orange-500"
+              className="whitespace-nowrap rounded-full bg-slate-50 px-3 py-1 text-xs text-slate-500 transition hover:bg-red-50 hover:text-red-500"
             >
               LEGO
             </Link>
 
             <Link
               href="/products"
-              className="whitespace-nowrap rounded-full bg-slate-50 px-3 py-1 text-xs text-slate-500 transition hover:bg-orange-50 hover:text-orange-500"
+              className="whitespace-nowrap rounded-full bg-slate-50 px-3 py-1 text-xs text-slate-500 transition hover:bg-red-50 hover:text-red-500"
             >
               Robot
             </Link>
 
             <Link
               href="/products"
-              className="whitespace-nowrap rounded-full bg-slate-50 px-3 py-1 text-xs text-slate-500 transition hover:bg-orange-50 hover:text-orange-500"
+              className="whitespace-nowrap rounded-full bg-slate-50 px-3 py-1 text-xs text-slate-500 transition hover:bg-red-50 hover:text-red-500"
             >
               Gấu bông
             </Link>
 
             <Link
               href="/products"
-              className="whitespace-nowrap rounded-full bg-slate-50 px-3 py-1 text-xs text-slate-500 transition hover:bg-orange-50 hover:text-orange-500"
+              className="whitespace-nowrap rounded-full bg-slate-50 px-3 py-1 text-xs text-slate-500 transition hover:bg-red-50 hover:text-red-500"
             >
               Búp bê
             </Link>
 
             <Link
               href="/products"
-              className="whitespace-nowrap rounded-full bg-slate-50 px-3 py-1 text-xs text-slate-500 transition hover:bg-orange-50 hover:text-orange-500"
+              className="whitespace-nowrap rounded-full bg-slate-50 px-3 py-1 text-xs text-slate-500 transition hover:bg-red-50 hover:text-red-500"
             >
               Xe điều khiển
             </Link>
 
             <Link
               href="/products"
-              className="whitespace-nowrap rounded-full bg-slate-50 px-3 py-1 text-xs text-slate-500 transition hover:bg-orange-50 hover:text-orange-500"
+              className="whitespace-nowrap rounded-full bg-slate-50 px-3 py-1 text-xs text-slate-500 transition hover:bg-red-50 hover:text-red-500"
             >
               Đồ chơi sáng tạo
             </Link>

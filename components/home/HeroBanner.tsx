@@ -16,7 +16,7 @@ export default function HeroBanner() {
         {/* =====================================================
             HERO
         ===================================================== */}
-        <div className="relative min-h-[480px] overflow-hidden rounded-[32px] bg-gradient-to-br from-orange-500 via-orange-400 to-yellow-300 shadow-xl shadow-orange-100">
+        <div className="relative min-h-[480px] overflow-hidden rounded-[32px] bg-gradient-to-br from-red-500 via-red-400 to-yellow-300 shadow-xl shadow-red-100">
 
           {/* DECORATION */}
           <div className="absolute -right-24 -top-24 h-72 w-72 rounded-full bg-white/10" />
@@ -69,7 +69,7 @@ export default function HeroBanner() {
 
                 <Link
                   href="/products"
-                  className="inline-flex items-center gap-2 rounded-full bg-white/20 px-6 py-3.5 text-sm font-bold text-white backdrop-blur-sm transition duration-300 hover:bg-white hover:text-orange-500"
+                  className="inline-flex items-center gap-2 rounded-full bg-white/20 px-6 py-3.5 text-sm font-bold text-white backdrop-blur-sm transition duration-300 hover:bg-white hover:text-red-500"
                 >
                   Xem sản phẩm
                 </Link>
@@ -141,7 +141,7 @@ export default function HeroBanner() {
                     Robot siêu nhân
                   </p>
 
-                  <p className="text-xs font-bold text-orange-500">
+                  <p className="text-xs font-bold text-red-500">
                     599.000đ
                   </p>
                 </div>
@@ -204,7 +204,7 @@ export default function HeroBanner() {
         <div className="mt-5 grid grid-cols-2 gap-3 md:grid-cols-4">
 
           <div className="flex items-center gap-3 rounded-2xl border border-slate-100 bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
-            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-orange-50 text-orange-500">
+            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-red-50 text-red-500">
               <Truck size={19} />
             </div>
 

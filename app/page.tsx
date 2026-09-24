@@ -28,7 +28,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl">
 
           <div className="mb-8 text-center">
-            <p className="text-xs font-bold uppercase tracking-[0.2em] text-orange-500">
+            <p className="text-xs font-bold uppercase tracking-[0.2em] text-red-500">
               Toy Store
             </p>
 
@@ -47,7 +47,7 @@ export default function Home() {
             {/* GIAO HÀNG */}
             <div className="group rounded-3xl border border-slate-100 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
 
-              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-orange-50 text-2xl transition group-hover:scale-110">
+              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-red-50 text-2xl transition group-hover:scale-110">
                 🚚
               </div>
 

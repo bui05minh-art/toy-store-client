@@ -210,7 +210,7 @@ if (category === "Thú bông") {
     <main className="min-h-screen bg-gray-50">
 
       {/* HERO */}
-      <section className="bg-gradient-to-r from-orange-500 via-orange-400 to-yellow-400">
+      <section className="bg-gradient-to-r from-red-500 via-red-400 to-yellow-400">
         <div className="mx-auto max-w-7xl px-4 py-12 lg:px-6">
           <div className="max-w-2xl text-white">
             <p className="mb-2 text-sm font-bold uppercase tracking-widest">
@@ -221,7 +221,7 @@ if (category === "Thú bông") {
               Thế giới đồ chơi
             </h1>
 
-            <p className="mt-3 text-sm text-orange-50 sm:text-base">
+            <p className="mt-3 text-sm text-red-50 sm:text-base">
               Khám phá những món đồ chơi thú vị dành cho bé yêu.
               Nhiều sản phẩm hấp dẫn đang chờ bạn.
             </p>
@@ -245,7 +245,7 @@ if (category === "Thú bông") {
               <button
                 type="button"
                 onClick={() => setCategory("Tất cả")}
-                className="text-xs font-semibold text-orange-500 hover:underline"
+                className="text-xs font-semibold text-red-500 hover:underline"
               >
                 Xóa lọc
               </button>
@@ -265,8 +265,8 @@ if (category === "Thú bông") {
                     onClick={() => setCategory(item)}
                     className={`flex w-full items-center justify-between rounded-lg px-3 py-2 text-left text-sm transition ${
                       category === item
-                        ? "bg-orange-50 font-bold text-orange-500"
-                        : "text-gray-600 hover:bg-gray-50 hover:text-orange-500"
+                        ? "bg-red-50 font-bold text-red-500"
+                        : "text-gray-600 hover:bg-gray-50 hover:text-red-500"
                     }`}
                   >
                     <span>{item}</span>
@@ -334,7 +334,7 @@ if (category === "Thú bông") {
                 <select
                   value={sort}
                   onChange={(e) => setSort(e.target.value)}
-                  className="rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm font-semibold outline-none focus:border-orange-500"
+                  className="rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm font-semibold outline-none focus:border-red-500"
                 >
                   <option>Mới nhất</option>
                   <option>Giá thấp đến cao</option>
@@ -369,7 +369,7 @@ if (category === "Thú bông") {
                 <button
                   type="button"
                   onClick={() => setCategory("Tất cả")}
-                  className="mt-5 rounded-full bg-orange-500 px-6 py-2.5 text-sm font-bold text-white hover:bg-orange-600"
+                  className="mt-5 rounded-full bg-red-500 px-6 py-2.5 text-sm font-bold text-white hover:bg-red-600"
                 >
                   Xem tất cả sản phẩm
                 </button>

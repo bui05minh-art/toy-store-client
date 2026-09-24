@@ -44,7 +44,7 @@ export default function Footer() {
       <section className="border-b border-white/10">
         <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
 
-          <div className="relative overflow-hidden rounded-[28px] bg-gradient-to-r from-orange-500 via-orange-500 to-amber-400 px-6 py-8 sm:px-10 sm:py-10">
+          <div className="relative overflow-hidden rounded-[28px] bg-gradient-to-r from-red-500 via-red-500 to-red-400 px-6 py-8 sm:px-10 sm:py-10">
 
             {/* DECORATION */}
             <div className="absolute -right-12 -top-12 h-40 w-40 rounded-full bg-white/10" />
@@ -75,7 +75,7 @@ export default function Footer() {
               {/* BUTTON */}
               <Link
                 href="/products"
-                className="group flex w-fit shrink-0 items-center gap-2 rounded-full bg-white px-6 py-3.5 text-sm font-black text-orange-500 shadow-lg transition duration-300 hover:-translate-y-1 hover:shadow-xl"
+                className="group flex w-fit shrink-0 items-center gap-2 rounded-full bg-white px-6 py-3.5 text-sm font-black text-red-500 shadow-lg transition duration-300 hover:-translate-y-1 hover:shadow-xl"
               >
                 Khám phá sản phẩm
 
@@ -112,7 +112,7 @@ export default function Footer() {
                 className="inline-flex items-center gap-3"
               >
 
-                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-orange-500 text-2xl shadow-lg">
+                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-red-500 text-2xl shadow-lg">
                   🧸
                 </div>
 
@@ -143,7 +143,7 @@ export default function Footer() {
                 <a
                   href="#"
                   aria-label="Facebook"
-                  className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-sm font-black transition duration-300 hover:-translate-y-1 hover:bg-orange-500"
+                  className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-sm font-black transition duration-300 hover:-translate-y-1 hover:bg-red-500"
                 >
                   f
                 </a>
@@ -153,7 +153,7 @@ export default function Footer() {
                 <a
                   href="#"
                   aria-label="Instagram"
-                  className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 transition duration-300 hover:-translate-y-1 hover:bg-orange-500"
+                  className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 transition duration-300 hover:-translate-y-1 hover:bg-red-500"
                 >
                   <Camera size={18} />
                 </a>
@@ -163,7 +163,7 @@ export default function Footer() {
                 <a
                   href="#"
                   aria-label="Youtube"
-                  className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 transition duration-300 hover:-translate-y-1 hover:bg-orange-500"
+                  className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 transition duration-300 hover:-translate-y-1 hover:bg-red-500"
                 >
                   <PlayCircle size={19} />
                 </a>
@@ -173,7 +173,7 @@ export default function Footer() {
                 <a
                   href="#"
                   aria-label="Chia sẻ"
-                  className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 transition duration-300 hover:-translate-y-1 hover:bg-orange-500"
+                  className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 transition duration-300 hover:-translate-y-1 hover:bg-red-500"
                 >
                   <Share2 size={17} />
                 </a>
@@ -200,7 +200,7 @@ export default function Footer() {
 
                     <Link
                       href={item.href}
-                      className="group flex items-center gap-1 text-sm text-slate-400 transition hover:text-orange-400"
+                      className="group flex items-center gap-1 text-sm text-slate-400 transition hover:text-red-400"
                     >
                       {item.label}
 
@@ -235,7 +235,7 @@ export default function Footer() {
 
                     <Link
                       href={item.href}
-                      className="group flex items-center gap-1 text-sm text-slate-400 transition hover:text-orange-400"
+                      className="group flex items-center gap-1 text-sm text-slate-400 transition hover:text-red-400"
                     >
                       {item.label}
 
@@ -269,7 +269,7 @@ export default function Footer() {
                 {/* ADDRESS */}
                 <div className="flex gap-3">
 
-                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-white/5 text-orange-400">
+                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-white/5 text-red-400">
                     <MapPin size={17} />
                   </div>
 
@@ -289,7 +289,7 @@ export default function Footer() {
                 {/* PHONE */}
                 <div className="flex gap-3">
 
-                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-white/5 text-orange-400">
+                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-white/5 text-red-400">
                     <Phone size={17} />
                   </div>
 
@@ -309,7 +309,7 @@ export default function Footer() {
                 {/* EMAIL */}
                 <div className="flex gap-3">
 
-                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-white/5 text-orange-400">
+                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-white/5 text-red-400">
                     <Mail size={17} />
                   </div>
 
@@ -329,7 +329,7 @@ export default function Footer() {
                 {/* TIME */}
                 <div className="flex gap-3">
 
-                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-white/5 text-orange-400">
+                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-white/5 text-red-400">
                     <Clock size={17} />
                   </div>
 
@@ -364,7 +364,7 @@ export default function Footer() {
                 <Link
                   key={item.label}
                   href={item.href}
-                  className="text-xs text-slate-500 transition hover:text-orange-400"
+                  className="text-xs text-slate-500 transition hover:text-red-400"
                 >
                   {item.label}
                 </Link>

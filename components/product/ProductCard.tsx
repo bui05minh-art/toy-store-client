@@ -85,13 +85,13 @@ export default function ProductCard({
           </div>
 
           {/* TÊN */}
-          <h3 className="line-clamp-2 min-h-11 text-sm font-semibold leading-5 text-gray-800 transition group-hover:text-orange-500">
+          <h3 className="line-clamp-2 min-h-11 text-sm font-semibold leading-5 text-gray-800 transition group-hover:text-red-500">
             {product.name}
           </h3>
 
           {/* GIÁ */}
           <div className="mt-3 flex flex-wrap items-center gap-2">
-            <span className="text-lg font-black text-orange-500">
+            <span className="text-lg font-black text-red-500">
               {product.price}
             </span>
 
@@ -107,7 +107,7 @@ export default function ProductCard({
       <div className="px-4 pb-4">
         <button
           type="button"
-          className="w-full rounded-full bg-orange-500 py-2.5 text-sm font-bold text-white transition hover:bg-orange-600 active:scale-95"
+          className="w-full rounded-full bg-red-500 py-2.5 text-sm font-bold text-white transition hover:bg-red-600 active:scale-95"
           onClick={() => {
             alert(`Đã thêm "${product.name}" vào giỏ hàng!`);
           }}

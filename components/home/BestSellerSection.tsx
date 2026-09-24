@@ -60,11 +60,11 @@ export default function BestSellerSection() {
             <div className="mb-2 flex items-center gap-2">
               <Crown
                 size={17}
-                className="text-orange-500"
+                className="text-red-500"
                 fill="currentColor"
               />
 
-              <span className="text-xs font-bold uppercase tracking-[0.18em] text-orange-500">
+              <span className="text-xs font-bold uppercase tracking-[0.18em] text-red-500">
                 Được yêu thích
               </span>
             </div>
@@ -80,7 +80,7 @@ export default function BestSellerSection() {
 
           <Link
             href="/products"
-            className="group hidden items-center gap-2 rounded-full border border-slate-200 px-5 py-2.5 text-sm font-bold text-slate-700 transition hover:border-orange-200 hover:text-orange-500 sm:flex"
+            className="group hidden items-center gap-2 rounded-full border border-slate-200 px-5 py-2.5 text-sm font-bold text-slate-700 transition hover:border-red-200 hover:text-red-500 sm:flex"
           >
             Xem tất cả
 
