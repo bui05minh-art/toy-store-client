@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { useCart } from "@/components/context/CartContext";
 
 export interface Product {
   id: number;
@@ -28,6 +29,26 @@ export default function ProductCard({
   product,
 }: ProductCardProps) {
   const rating = product.rating ?? 5;
+
+  const { addToCart } = useCart();
+
+  const handleAddToCart = () => {
+    // Các sản phẩm hiện tại đều có ảnh.
+    // Nếu sau này có sản phẩm chỉ dùng icon thì không thêm vào giỏ ở đây.
+    if (!product.image) {
+      alert("Sản phẩm này chưa có hình ảnh để thêm vào giỏ hàng.");
+      return;
+    }
+
+    addToCart({
+      id: product.id,
+      name: product.name,
+      price: product.price,
+      oldPrice: product.oldPrice,
+      discount: product.discount,
+      image: product.image,
+    });
+  };
 
   return (
     <article className="group relative overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-gray-100 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
@@ -108,9 +129,7 @@ export default function ProductCard({
         <button
           type="button"
           className="w-full rounded-full bg-red-500 py-2.5 text-sm font-bold text-white transition hover:bg-red-600 active:scale-95"
-          onClick={() => {
-            alert(`Đã thêm "${product.name}" vào giỏ hàng!`);
-          }}
+          onClick={handleAddToCart}
         >
           🛒 Thêm vào giỏ
         </button>

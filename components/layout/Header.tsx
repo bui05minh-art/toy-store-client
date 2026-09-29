@@ -1,6 +1,8 @@
 "use client";
 
 import Link from "next/link";
+import { useCart } from "@/components/context/CartContext";
+
 import {
   Search,
   UserRound,
@@ -14,6 +16,8 @@ import {
 } from "lucide-react";
 
 export default function Header() {
+  const { totalItems } = useCart();
+
   return (
     <header className="bg-white">
 
@@ -150,7 +154,7 @@ export default function Header() {
               />
 
               <span className="absolute right-0 top-0 flex h-4 min-w-4 items-center justify-center rounded-full bg-red-500 px-1 text-[9px] font-bold text-white">
-                0
+                {totalItems}
               </span>
             </Link>
 
