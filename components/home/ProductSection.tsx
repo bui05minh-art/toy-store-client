@@ -93,7 +93,7 @@ export default function ProductSection() {
         {/* =====================================================
             FLASH SALE HEADER
         ===================================================== */}
-        <div className="relative overflow-hidden rounded-t-[28px] bg-gradient-to-r from-red-500 via-orange-500 to-orange-400 px-6 py-6 sm:px-8">
+        <div className="relative overflow-hidden rounded-t-[28px] bg-gradient-to-r from-red-500 via-red-500 to-red-400 px-6 py-6 sm:px-8">
 
           {/* DECORATION */}
           <div className="absolute -right-10 -top-16 h-40 w-40 rounded-full bg-white/10" />
@@ -145,7 +145,7 @@ export default function ProductSection() {
 
               <Link
                 href="/products"
-                className="group hidden items-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-bold text-orange-500 shadow-sm transition hover:bg-slate-900 hover:text-white sm:flex"
+                className="group hidden items-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-bold text-red-500 shadow-sm transition hover:bg-slate-900 hover:text-white sm:flex"
               >
                 Xem tất cả
 
@@ -171,7 +171,7 @@ export default function ProductSection() {
             <div className="flex items-center gap-2 text-sm text-slate-500">
               <Sparkles
                 size={16}
-                className="text-orange-500"
+                className="text-red-500"
               />
 
               <span>
@@ -202,7 +202,7 @@ export default function ProductSection() {
           <div className="mt-7 flex justify-center sm:hidden">
             <Link
               href="/products"
-              className="group flex items-center gap-2 rounded-full bg-slate-900 px-7 py-3 text-sm font-bold text-white transition hover:bg-orange-500"
+              className="group flex items-center gap-2 rounded-full bg-slate-900 px-7 py-3 text-sm font-bold text-white transition hover:bg-red-500"
             >
               Xem tất cả sản phẩm
 

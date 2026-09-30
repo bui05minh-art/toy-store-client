@@ -22,7 +22,7 @@ export default function Navbar() {
         <div className="group relative">
           <button
             type="button"
-            className="flex items-center gap-2 rounded-t-xl bg-orange-500 px-6 py-4 text-sm font-bold text-white transition hover:bg-orange-600"
+            className="flex items-center gap-2 rounded-t-xl bg-red-500 px-6 py-4 text-sm font-bold text-white transition hover:bg-red-600"
           >
             <Menu size={19} />
 
@@ -42,7 +42,7 @@ export default function Navbar() {
               {/* LEGO */}
               <div>
                 <div className="mb-4 flex items-center gap-2">
-                  <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-orange-50 text-orange-500">
+                  <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-red-50 text-red-500">
                     <Blocks size={19} />
                   </div>
 
@@ -54,28 +54,28 @@ export default function Navbar() {
                 <div className="space-y-2 text-sm text-slate-500">
                   <Link
                     href="/products"
-                    className="block transition hover:translate-x-1 hover:text-orange-500"
+                    className="block transition hover:translate-x-1 hover:text-red-500"
                   >
                     LEGO City
                   </Link>
 
                   <Link
                     href="/products"
-                    className="block transition hover:translate-x-1 hover:text-orange-500"
+                    className="block transition hover:translate-x-1 hover:text-red-500"
                   >
                     LEGO Friends
                   </Link>
 
                   <Link
                     href="/products"
-                    className="block transition hover:translate-x-1 hover:text-orange-500"
+                    className="block transition hover:translate-x-1 hover:text-red-500"
                   >
                     LEGO Creator
                   </Link>
 
                   <Link
                     href="/products"
-                    className="block transition hover:translate-x-1 hover:text-orange-500"
+                    className="block transition hover:translate-x-1 hover:text-red-500"
                   >
                     LEGO Classic
                   </Link>
@@ -97,28 +97,28 @@ export default function Navbar() {
                 <div className="space-y-2 text-sm text-slate-500">
                   <Link
                     href="/products"
-                    className="block transition hover:translate-x-1 hover:text-orange-500"
+                    className="block transition hover:translate-x-1 hover:text-red-500"
                   >
                     Xe điều khiển
                   </Link>
 
                   <Link
                     href="/products"
-                    className="block transition hover:translate-x-1 hover:text-orange-500"
+                    className="block transition hover:translate-x-1 hover:text-red-500"
                   >
                     Xe mô hình
                   </Link>
 
                   <Link
                     href="/products"
-                    className="block transition hover:translate-x-1 hover:text-orange-500"
+                    className="block transition hover:translate-x-1 hover:text-red-500"
                   >
                     Xe cảnh sát
                   </Link>
 
                   <Link
                     href="/products"
-                    className="block transition hover:translate-x-1 hover:text-orange-500"
+                    className="block transition hover:translate-x-1 hover:text-red-500"
                   >
                     Xe đua
                   </Link>
@@ -140,28 +140,28 @@ export default function Navbar() {
                 <div className="space-y-2 text-sm text-slate-500">
                   <Link
                     href="/products"
-                    className="block transition hover:translate-x-1 hover:text-orange-500"
+                    className="block transition hover:translate-x-1 hover:text-red-500"
                   >
                     Robot điều khiển
                   </Link>
 
                   <Link
                     href="/products"
-                    className="block transition hover:translate-x-1 hover:text-orange-500"
+                    className="block transition hover:translate-x-1 hover:text-red-500"
                   >
                     Robot biến hình
                   </Link>
 
                   <Link
                     href="/products"
-                    className="block transition hover:translate-x-1 hover:text-orange-500"
+                    className="block transition hover:translate-x-1 hover:text-red-500"
                   >
                     Robot siêu nhân
                   </Link>
 
                   <Link
                     href="/products"
-                    className="block transition hover:translate-x-1 hover:text-orange-500"
+                    className="block transition hover:translate-x-1 hover:text-red-500"
                   >
                     Robot thông minh
                   </Link>
@@ -183,28 +183,28 @@ export default function Navbar() {
                 <div className="space-y-2 text-sm text-slate-500">
                   <Link
                     href="/products"
-                    className="block transition hover:translate-x-1 hover:text-orange-500"
+                    className="block transition hover:translate-x-1 hover:text-red-500"
                   >
                     Búp bê
                   </Link>
 
                   <Link
                     href="/products"
-                    className="block transition hover:translate-x-1 hover:text-orange-500"
+                    className="block transition hover:translate-x-1 hover:text-red-500"
                   >
                     Gấu bông
                   </Link>
 
                   <Link
                     href="/products"
-                    className="block transition hover:translate-x-1 hover:text-orange-500"
+                    className="block transition hover:translate-x-1 hover:text-red-500"
                   >
                     Đồ chơi sáng tạo
                   </Link>
 
                   <Link
                     href="/products"
-                    className="block transition hover:translate-x-1 hover:text-orange-500"
+                    className="block transition hover:translate-x-1 hover:text-red-500"
                   >
                     Đồ chơi nhà bếp
                   </Link>
@@ -213,10 +213,10 @@ export default function Navbar() {
             </div>
 
             {/* ================= MEGA MENU BOTTOM ================= */}
-            <div className="mt-7 flex items-center justify-between rounded-2xl bg-linear-to-r from-orange-50 to-yellow-50 px-6 py-5">
+            <div className="mt-7 flex items-center justify-between rounded-2xl bg-linear-to-r from-red-50 to-yellow-50 px-6 py-5">
 
               <div className="flex items-center gap-4">
-                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-orange-500 text-white shadow-lg shadow-orange-200">
+                <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-red-500 text-white shadow-lg shadow-red-200">
                   <Sparkles size={21} />
                 </div>
 
@@ -233,7 +233,7 @@ export default function Navbar() {
 
               <Link
                 href="/products"
-                className="rounded-full bg-slate-900 px-6 py-2.5 text-sm font-bold text-white transition hover:bg-orange-500"
+                className="rounded-full bg-slate-900 px-6 py-2.5 text-sm font-bold text-white transition hover:bg-red-500"
               >
                 Xem tất cả
               </Link>
@@ -246,21 +246,21 @@ export default function Navbar() {
 
           <Link
             href="/"
-            className="px-5 py-4 text-sm font-semibold text-slate-700 transition hover:text-orange-500"
+            className="px-5 py-4 text-sm font-semibold text-slate-700 transition hover:text-red-500"
           >
             Trang chủ
           </Link>
 
           <Link
             href="/products"
-            className="px-5 py-4 text-sm font-semibold text-slate-700 transition hover:text-orange-500"
+            className="px-5 py-4 text-sm font-semibold text-slate-700 transition hover:text-red-500"
           >
             Sản phẩm
           </Link>
 
           <Link
             href="/products"
-            className="flex items-center gap-1 px-5 py-4 text-sm font-semibold text-slate-700 transition hover:text-orange-500"
+            className="flex items-center gap-1 px-5 py-4 text-sm font-semibold text-slate-700 transition hover:text-red-500"
           >
             Hàng mới
             <Sparkles size={14} />
@@ -268,7 +268,7 @@ export default function Navbar() {
 
           <Link
             href="/products"
-            className="flex items-center gap-1 px-5 py-4 text-sm font-semibold text-slate-700 transition hover:text-orange-500"
+            className="flex items-center gap-1 px-5 py-4 text-sm font-semibold text-slate-700 transition hover:text-red-500"
           >
             Thương hiệu
             <ChevronDown size={14} />
@@ -276,7 +276,7 @@ export default function Navbar() {
 
           <Link
             href="/products"
-            className="flex items-center gap-1 px-5 py-4 text-sm font-semibold text-slate-700 transition hover:text-orange-500"
+            className="flex items-center gap-1 px-5 py-4 text-sm font-semibold text-slate-700 transition hover:text-red-500"
           >
             Khuyến mãi
             <Percent size={14} />
@@ -295,7 +295,7 @@ export default function Navbar() {
         <div className="hidden items-center gap-2 text-xs font-medium text-slate-500 xl:flex">
           <Heart
             size={17}
-            className="text-orange-500"
+            className="text-red-500"
           />
 
           <span>Thành viên TOY STORE</span>

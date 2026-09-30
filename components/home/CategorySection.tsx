@@ -7,7 +7,7 @@ const categories = [
     name: "LEGO",
     description: "Lắp ráp & sáng tạo",
     image: "/images/products/lego_sangtao.jpg",
-    color: "from-orange-500 to-yellow-400",
+    color: "from-red-500 to-yellow-400",
   },
   {
     name: "Xe đồ chơi",
@@ -31,7 +31,7 @@ const categories = [
     name: "Gấu bông",
     description: "Ôm là thích",
     image: "/images/products/gau_teddy.jpg",
-    color: "from-amber-500 to-orange-400",
+    color: "from-red-500 to-red-400",
   },
   {
     name: "Đồ chơi sáng tạo",
@@ -51,9 +51,9 @@ export default function CategorySection() {
 
           <div>
             <div className="mb-2 flex items-center gap-2">
-              <span className="h-1 w-8 rounded-full bg-orange-500" />
+              <span className="h-1 w-8 rounded-full bg-red-500" />
 
-              <span className="text-xs font-bold uppercase tracking-[0.18em] text-orange-500">
+              <span className="text-xs font-bold uppercase tracking-[0.18em] text-red-500">
                 Khám phá
               </span>
             </div>
@@ -69,7 +69,7 @@ export default function CategorySection() {
 
           <Link
             href="/products"
-            className="group hidden items-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-bold text-slate-700 shadow-sm transition hover:border-orange-200 hover:text-orange-500 sm:flex"
+            className="group hidden items-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-2.5 text-sm font-bold text-slate-700 shadow-sm transition hover:border-red-200 hover:text-red-500 sm:flex"
           >
             Xem tất cả
 
@@ -108,7 +108,7 @@ export default function CategorySection() {
                 />
 
                 {/* ARROW */}
-                <div className="absolute right-3 top-3 flex h-8 w-8 translate-x-2 items-center justify-center rounded-full bg-white/90 text-slate-400 opacity-0 shadow-sm transition-all duration-300 group-hover:translate-x-0 group-hover:text-orange-500 group-hover:opacity-100">
+                <div className="absolute right-3 top-3 flex h-8 w-8 translate-x-2 items-center justify-center rounded-full bg-white/90 text-slate-400 opacity-0 shadow-sm transition-all duration-300 group-hover:translate-x-0 group-hover:text-red-500 group-hover:opacity-100">
                   <ArrowRight size={15} />
                 </div>
 
@@ -117,7 +117,7 @@ export default function CategorySection() {
               {/* TEXT */}
               <div className="px-4 pb-4 pt-3">
 
-                <h3 className="text-sm font-bold text-slate-800 transition group-hover:text-orange-500">
+                <h3 className="text-sm font-bold text-slate-800 transition group-hover:text-red-500">
                   {category.name}
                 </h3>
 

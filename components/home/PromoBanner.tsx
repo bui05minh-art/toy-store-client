@@ -15,18 +15,18 @@ export default function PromoBanner() {
         <div className="relative min-h-[330px] overflow-hidden rounded-[32px] bg-slate-900 shadow-xl">
 
           {/* DECORATION */}
-          <div className="absolute -right-20 -top-20 h-72 w-72 rounded-full bg-orange-500/20 blur-2xl" />
+          <div className="absolute -right-20 -top-20 h-72 w-72 rounded-full bg-red-500/20 blur-2xl" />
 
           <div className="absolute -bottom-32 left-1/3 h-80 w-80 rounded-full bg-yellow-400/10 blur-3xl" />
 
-          <div className="absolute right-1/3 top-10 h-32 w-32 rounded-full bg-orange-400/10 blur-2xl" />
+          <div className="absolute right-1/3 top-10 h-32 w-32 rounded-full bg-red-400/10 blur-2xl" />
 
           {/* SMALL DECORATIONS */}
           <div className="absolute right-[42%] top-8 text-yellow-300 opacity-80">
             <Star size={20} fill="currentColor" />
           </div>
 
-          <div className="absolute bottom-10 left-[45%] text-orange-400 opacity-70">
+          <div className="absolute bottom-10 left-[45%] text-red-400 opacity-70">
             <Sparkles size={22} />
           </div>
 
@@ -36,7 +36,7 @@ export default function PromoBanner() {
             {/* LEFT */}
             <div className="px-7 py-12 sm:px-10 lg:px-14">
 
-              <div className="mb-5 inline-flex items-center gap-2 rounded-full bg-orange-500/15 px-4 py-2 text-xs font-bold uppercase tracking-wider text-orange-400">
+              <div className="mb-5 inline-flex items-center gap-2 rounded-full bg-red-500/15 px-4 py-2 text-xs font-bold uppercase tracking-wider text-red-400">
                 <Gift size={15} />
                 Ưu đãi đặc biệt
               </div>
@@ -44,7 +44,7 @@ export default function PromoBanner() {
               <h2 className="max-w-xl text-3xl font-black leading-tight text-white sm:text-4xl lg:text-5xl">
                 Món quà nhỏ,
                 <br />
-                <span className="text-orange-400">
+                <span className="text-red-400">
                   niềm vui lớn
                 </span>
               </h2>
@@ -57,7 +57,7 @@ export default function PromoBanner() {
 
               <Link
                 href="/products"
-                className="group mt-7 inline-flex items-center gap-2 rounded-full bg-orange-500 px-6 py-3.5 text-sm font-bold text-white shadow-lg shadow-orange-900/30 transition duration-300 hover:-translate-y-0.5 hover:bg-orange-400"
+                className="group mt-7 inline-flex items-center gap-2 rounded-full bg-red-500 px-6 py-3.5 text-sm font-bold text-white shadow-lg shadow-red-900/30 transition duration-300 hover:-translate-y-0.5 hover:bg-red-400"
               >
                 Khám phá ngay
 
@@ -108,7 +108,7 @@ export default function PromoBanner() {
               </div>
 
               {/* SALE BADGE */}
-              <div className="absolute right-[18%] top-[8%] flex h-20 w-20 rotate-6 items-center justify-center rounded-full bg-orange-500 shadow-xl">
+              <div className="absolute right-[18%] top-[8%] flex h-20 w-20 rotate-6 items-center justify-center rounded-full bg-red-500 shadow-xl">
                 <div className="text-center text-white">
                   <p className="text-[9px] font-bold uppercase">
                     Giảm đến

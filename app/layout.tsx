@@ -4,6 +4,7 @@ import "./globals.css";
 
 import Header from "@/components/layout/Header";
 import Navbar from "@/components/layout/Navbar";
+import { CartProvider } from "@/components/context/CartContext";
 
 export const metadata: Metadata = {
   title: "Toy Store - Thế giới đồ chơi",
@@ -19,11 +20,13 @@ export default function RootLayout({
   return (
     <html lang="vi">
       <body className="min-h-screen bg-gray-50 text-gray-900 antialiased">
-        <Header />
+        <CartProvider>
+          <Header />
 
-        <Navbar />
+          <Navbar />
 
-        <main>{children}</main>
+          <main>{children}</main>
+        </CartProvider>
       </body>
     </html>
   );
