@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 
-import Header from "@/components/layout/Header";
-import Navbar from "@/components/layout/Navbar";
+import SiteHeader from "@/components/layout/SiteHeader";
 import { CartProvider } from "@/components/context/CartContext";
+import { AuthProvider } from "@/components/context/AuthContext";
 
 export const metadata: Metadata = {
   title: "Toy Store - Thế giới đồ chơi",
@@ -19,13 +19,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="vi">
-      <body className="min-h-screen bg-gray-50 text-gray-900 antialiased">
+      <body className="min-h-screen bg-[#f7f8fc] text-slate-900 antialiased">
         <CartProvider>
-          <Header />
+          <AuthProvider>
+            <SiteHeader />
 
-          <Navbar />
-
-          <main>{children}</main>
+            <main>{children}</main>
+          </AuthProvider>
         </CartProvider>
       </body>
     </html>
